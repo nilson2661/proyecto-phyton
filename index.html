@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOQUE CONSTRUCCIONES</title>
+
+    <!-- Creamos en favicon-------------->
+    <link rel="shortcut icon" href="img/logo.favicon.png" type="image/x-icon">
+    <!--vinculamos directamente nuestro html con css --->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <section class="flex-container">
+    <header class="header" id="inicio">
+        <!-- creamos el "nav" y de esta forma agregamos --->
+<img src="img/hamburguer.svg" alt="" class="hamburger">
+        <nav class="menu-navegacion">
+            <!--El # es para que no se vaya a ningun lado --->
+            <!--Aqui podemxos agregar un menu amburguesa  --->
+            <a href="#inicio">Inicio</a>
+            <a href="registrarse.html">Registrarse</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#clientes">clientes</a>
+            <a href="#proyectos">Proyectos</a>
+        </nav>
+      
+        <!--Encabezado "header" --->
+        <section class="textos-header">
+            <h1>LIDERES EN LA CALIDAD DE CONTRUCCION E INFRAESTRUCTURA </h1>
+            <h2>950 proyectos - 44 países - 400 empleados - 55 naciones.</h2>
+        </section>
+    </header>
+     
+    <!--Cuerpo "main"y lo separamos en secciones "section" --->
+    <main>
+        <section class="contenedor-nosotros">
+            <!--La clase ".contenedor es muy importante ya que de aqui podemos trabajar todo mas rapido desde css"  --->
+            <h2 class="titulo">NOSOTROS</h2>
+            <!--Elemento en bloque  "div" --->
+            <div class="contenedor-nost">
+                <img src="img/primera.jpg" alt="" class="imagen-sobre-nosotros">
+                <div class="contenido-textos">
+                    <h3><Span>1</Span>Por que confiar en nosotros </h3>
+                    <p>Trabajamos a todas las escalas y en todos
+                        sectores. Creamos transformadores
+                        culturales, corporativos, residenciales
+                        y otros espacios que trabajan en
+                        sincronicidad con sus
+                        alrededores.
+                    </p>
+                    <h3><Span>2</Span>Años de experiencia </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iusto nostrum animi commodi
+                        sunt recusandae nam vel delectus quo similique? Sunt veniam tempora, eum sint ab eius architecto
+                        ea
+                        laudantium.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class=" contenedor-servicios" id="servicios">
+            <div class="contenedor-serv">
+                <h2 class="titulo">PROYECTOS</h2>
+                <div class="galeria-servicios">
+
+                    <div class="imagen-servicios">
+                        <img src="img" alt=""
+                       class="hover-galeria">
+                          <img src="img/1obra.jpg" alt="">  
+                            <p>Planeamiento</p>
+                        
+                    </div>
+                    <div class="imagen-servicios">
+                        <img src="img/Academia Evelyn Grace de Londres_page-0001.jpg" alt=""
+                        class="hover-galeria">
+                           <img src="img/2obra.jpg" alt=""> 
+                            <p>Maquetas</p>
+                       
+                    </div>
+                    <div class="imagen-servicios">
+                        <img src="img/HEYDAR_page-0001.jpg" alt=""
+                        class= "hover-galeria">
+                           <img src="img/3obra.jpg" alt=""> 
+                            <p>construccion</p>
+                     
+
+            </div>
+        </section>
+        <section class="imagen-light">
+            <img src="img/bx-x.svg" alt="" class="close">
+            <img src="img/andre-blanco-a8LsyPB8-Jg-unsplash.jpg" alt="" class="agregar-imagen">
+        </section>
+
+        <section class="contenedor-clientes" id="clientes">
+            <h2 class="titulo">NUESTROS CLIENTES</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/aerolineas-argentinas.jpg" alt="">
+                    <div class="contenido-texto-card">
+                    <h4>Aerolineas Argentinas</h4>
+                </div>
+            </div>
+                <div class="card">
+                    <img src="img/Banco_Hipotecario.svg.png" alt="">
+                    <div class="contenido-texto-card">
+                    <h4>Banco Hipotecario</h4>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section class="contenedor-proyectos" id="proyectos">
+            <h2 class="titulo">SERVICIOS</h2>
+            <div class="contenedor-pro">
+                <div class="proyecto-ind">
+                        <img src="img/planemamiento.webp" alt="">
+                        <h3>Planeamiento</h3>
+                    </div>
+                    <div class="proyecto-ind">
+                        <img src="img/maquetas.webp" alt="">
+                        <h3>Maquetas</h3>
+                    </div>
+                    <div class="proyecto-ind">
+                        <img src="img/construccion.webp" alt="">
+                        <h3>construccion</h3>
+                    </div>
+                </div>
+        </section>
+    </main>
+</section>
+    <!--Pie de pagina "footer"  --->
+    <footer>
+        <div class="contenedor-footer">
+            <div class="content-footer">
+                <h4>E-mail</h4>
+                <p>bloqueconstrucciones@gmail.com</p>
+            </div>
+            <div class="content-footer">
+                <h4>Teléfono</h4>
+                <p>000-0000-000</p>
+            </div>
+            <div class="content-footer">
+                <h4>Ubicación</h4>
+                <p>Secreta</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy;NilsonCC Design | Nilson Castellanos.</h2>
+    </footer>
+
+    <script src="slider.js"></script>
+    <script src="lightbox.js"></script>
+</body>
+
+</html>
+<!--  --->
